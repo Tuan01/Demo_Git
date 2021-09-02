@@ -23,11 +23,6 @@ public class Array {
 			System.out.println("Item on index " + i + " is: " + cars.get(i));
 		}
 
-		System.out.println("\nNext for loop example");
-		for (String car : cars) {
-			System.out.println("The item is: " + car);
-		}
-
 		// Remove
 		cars.remove(size - 1);
 
@@ -35,6 +30,8 @@ public class Array {
 		for (String car : cars) {
 			System.out.println("The item is: " + car);
 		}
+		
+		cars.clear();
 
 	}
 
